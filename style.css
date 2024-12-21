@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(45deg, #121212, #34577c);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.search-container {
+    margin: 1rem 0;
+}
+
+.search-container input[type='text'] {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.category {
+    width: 30%;
+    margin: 0.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: background 0.3s
+}
